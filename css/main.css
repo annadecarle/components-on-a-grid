@@ -17,8 +17,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "banner banner"
-  "col1 col2";
+    "banner banner"
+    "col1 col2";
   gap: 1rem;
 }
 
@@ -51,7 +51,17 @@ h2 {
   font-size: 2rem;
 }
 
+nav {
+  align-items: flex-end;
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 1;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
 li {
+  display: inline;
   list-style-type: none;
   padding: 1rem;
 }
@@ -60,6 +70,10 @@ a {
   color: #fff;
   font-family: "Patua One", sans-serif;
   font-size: 2rem;
+}
+
+main {
+  display: inline-flex;
 }
 
 /* main {
