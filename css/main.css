@@ -73,7 +73,15 @@ a {
 }
 
 main {
-  display: inline-flex;
+  display: grid;
+  grid-template-areas:
+    "figure figure";
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  grid-column: 1 / -1;
+}
+
+figure {
 }
 
 /* main {
