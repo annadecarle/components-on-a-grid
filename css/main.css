@@ -73,15 +73,10 @@ a {
 }
 
 main {
-  display: grid;
+  display: contents;
   grid-template-areas:
     "figure figure";
   grid-template-rows: 1fr 1fr;
-  gap: 1rem;
-  grid-column: 1 / -1;
-}
-
-figure {
 }
 
 /* main {
