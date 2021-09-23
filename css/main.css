@@ -49,6 +49,7 @@ h2 {
   font-family: "Patua One", sans-serif;
   color: #30658d;
   font-size: 2rem;
+  margin: 0;
 }
 
 nav {
@@ -73,12 +74,16 @@ a {
 }
 
 main {
+  display: flex;
   display: contents;
-  grid-template-areas:
-    "figure figure";
+  grid-template-areas: "figure figure";
   grid-template-rows: 1fr 1fr;
 }
 
 figure {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
