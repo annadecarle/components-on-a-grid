@@ -79,11 +79,6 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-/* main {
-  display: flex;
-}
-
 figure {
-  padding: 1rem;
-  margin: 1rem;
-} */
+  margin: 0;
+}
